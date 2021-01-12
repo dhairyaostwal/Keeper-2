@@ -12,8 +12,8 @@ function App() {
   return (
     <div>
       <Header />
-      <Note title="Sample title" content="Sample Content" />
-      {/* {notes.map(createNote)} */}
+      {/* <Note title="Sample title" content="Sample Content" /> */}
+      {notes.map(createNote)}
       <Footer />
     </div>
   );
